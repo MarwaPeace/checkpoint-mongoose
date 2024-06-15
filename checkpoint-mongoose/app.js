@@ -9,7 +9,7 @@ async function main() {
     let person = new List({_id:"1", name: "Dahmen", age: 26, favoriteFoods: ["spaghetti"] })
     let restOfList = require("./Persons");// console.log(restOfList)
   
-    await mongoose.connect('mongodb+srv://ee:ff@favouritefood.penucox.mongodb.net/?retryWrites=true&w=majority');
+    await mongoose.connect('Your Link');
 
     //1_____________________Create and Save a Record of a Model:
 
